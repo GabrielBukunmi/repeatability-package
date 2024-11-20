@@ -96,6 +96,4 @@ for i = 1:10
     xlabel('Time (t)', 'Interpreter', 'latex','FontSize',22);  
     set(gca, 'FontSize', 22);  % Adjust tick labels' size
 
-    % Export the figure to a PDF with the defined filename
-    exportgraphics(gcf, filename, 'ContentType', 'vector');
 end

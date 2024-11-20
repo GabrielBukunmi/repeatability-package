@@ -115,8 +115,6 @@ set(gca, 'FontSize', 18);
 grid on;
 hold off;
 
-% Export the figure to PDF
-exportgraphics(gcf, 'ResultSMIB.pdf', 'ContentType', 'vector');
 
 
 
@@ -135,5 +133,5 @@ ylabel('$\omega$ (Rotor Speed Deviation)', 'Interpreter', 'latex','FontSize',14)
 set(gca, 'FontSize', 18);  % Increase tick label font size
 
 grid on  % Turn on the grid
-exportgraphics(gcf, 'phaseportrait.pdf', 'ContentType', 'vector');
+
 
